@@ -44,6 +44,7 @@ public class GestorLibros {
 		return temas;
 	}
 	public List<Libro> recuperarLibros(int idTema){
+		System.out.println("idTema = "+idTema);
 		List<Libro> libros = new ArrayList<>();
 		String sql = "";
 		ResultSet rs = null;
